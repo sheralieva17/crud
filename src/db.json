@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Жанара",
+      "age": "20",
+      "phone": "4567890",
+      "profession": "developer",
+      "id": 8
+    },
+    {
+      "name": "Anara",
+      "age": "21",
+      "phone": "46738290",
+      "profession": "student",
+      "id": 9
+    },
+    {
+      "name": "Luiza",
+      "age": "12",
+      "phone": "5643829",
+      "profession": "ghjkl",
+      "id": 10
+    },
+    {
+      "name": "Meerim",
+      "age": "20",
+      "phone": "6473829",
+      "profession": "med",
+      "id": 11
+    },
+    {
+      "name": "Begai",
+      "age": "19",
+      "phone": "890-987890",
+      "profession": "Cosmetolog",
+      "id": 12
+    },
+    {
+      "name": "Nargiza",
+      "age": "21",
+      "phone": "4567890",
+      "profession": "teacher",
+      "id": 13
+    }
+  ]
+}

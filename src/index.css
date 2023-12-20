@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.listOfItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid violet;
+  background: transparent;
+  height: auto;
+}
+.listOfItems h2 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.list li {
+  margin-bottom: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: large;
+}
+li.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  border: 1px solid #de13b6;
+  padding: 5px;
+}
+
+.list li a {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #21bb5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list li button {
+  padding: 5px 10px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list li button:hover {
+  background-color: #d9534f;
+}
+.title-create {
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+.create-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.create-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.create-form button[type="submit"] {
+  background-color: #b732cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-form button[type="submit"]:hover {
+  background-color: #b30080;
+}
+
+/* style for update */
+
+.update-form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #5f0ded;
+}
+
+.update-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.update-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-form button {
+  padding: 10px 20px;
+  background-color: #b732cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-form button:hover {
+  background-color: #b30080;
+}
+
+/* стиль для детализации */
+
+.details-container {
+  border: 1px solid #c610d3;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.details-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.details-container p,
+.details-container span {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #b30080;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.details-container span {
+  display: block;
 }
